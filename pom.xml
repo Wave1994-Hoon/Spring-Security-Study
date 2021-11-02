@@ -8,10 +8,10 @@
 		<version>2.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.security</groupId>
-	<artifactId>basic-security</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>basic-security</name>
+		<groupId>io.security</groupId>
+		<artifactId>basic-security</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<name>basic-security</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -24,10 +24,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

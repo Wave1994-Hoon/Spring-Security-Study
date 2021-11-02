@@ -6,13 +6,13 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http
-            .authorizeRequests()
-            .anyRequest().authenticated();    // 어떤 요청에도 인증을 받음
+  @Override
+  protected void configure(HttpSecurity http) throws Exception {
+    http
+        .authorizeRequests()
+        .anyRequest().authenticated();    // 어떤 요청에도 인증을 받음
 
-        http
-            .formLogin();
-    }
+    http
+        .formLogin();
+  }
 }
